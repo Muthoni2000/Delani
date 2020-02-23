@@ -1,0 +1,10 @@
+html{
+    scroll-behavior: smooth;
+  }
+  .forms{
+    width:60%;
+    margin: auto;
+    margin-bottom: 100px;
+    color: white;
+  }
+  
