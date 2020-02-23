@@ -158,6 +158,27 @@
         </div>
         <div id="output">
           <p><span class="name"></span>we have received your message. Thank you fro reaching out to us.</p>
-        </div>
+        </div>          <div id="fill">
+            <form id="contactform" class="forms" method="post">
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <input id="name" type="text" class="form-control" name="name" value="" placeholder="Name...">
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-group">
+                    <input id="email" type="email" class="form-control" name="_replyto" value="" placeholder="Email...">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea id="message" name="message" rows="8" cols="80" class="form-control" placeholder="Type message here..." type="text"></textarea>
+              </div>
+              <div class="text-right">
+                <button type="submit" id="button-color" class="btn" value="reset"> submit</button>
+              </div>
+            </form>
+
 </body>
 </html>
