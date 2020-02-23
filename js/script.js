@@ -19,4 +19,30 @@ $(document).ready(function(){
         $(".developmentp").hide();
         $(".development").show();
       })
-   
+      $(".designp").click(function(){
+        $(".design").toggle();
+        $(".designp").hide();
+        $(".design").show();
+      })
+      $(".development").click(function(){
+        $(".development").hide();
+        $(".developmentp").toggle();
+        $(".developmentp").show();
+      })
+      $(".developmentp").click(function(){
+        $(".development").toggle();
+        $(".developmentp").hide();
+        $(".development").show();
+      })
+      $(".product-management").click(function(){
+        $(".product-management").hide();
+        $(".product-managementp").toggle();
+        $(".product-managementp").show();
+      })
+      $(".product-managementp").click(function(){
+        $(".product-management").toggle();
+        $(".product-managementp").hide();
+        $(".product-management").show();
+      })
+    
+     
