@@ -8,9 +8,45 @@ html{
     color: white;
   }
   .form-control::placeholder {
-      
+
     color: white;
     opacity: 1;
     font-weight: bold;
+  }
+  .form-control:focus {
+    border-color:white;
+    box-shadow: none;
+  }
+  .contact-form{
+    background-image:url("../IP3/assets/backgrounds/c_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    width: 100%;
+  }
+  .contact-form h2{
+    color: white;
+    margin: 30px auto;
+  }
+  input[type="text"],textarea[type="text"],input[type="email"]{
+    background:transparent;
+    outline: none;
+    background-color: transparent;
+    color: white !important;
+    font-weight: 500;
+    font-family: 'Gugi', cursive;
+  }
+  input{
+    color: white;
+  }
+  #name, #email, #message{
+    background-color: transparent;
+    border
+    color: white;
+  }
+  #button-color{
+    background-color: #C0BDA5;
+    color: white;
   }
 
