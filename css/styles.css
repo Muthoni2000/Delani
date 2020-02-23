@@ -7,4 +7,10 @@ html{
     margin-bottom: 100px;
     color: white;
   }
-  
+  .form-control::placeholder {
+      
+    color: white;
+    opacity: 1;
+    font-weight: bold;
+  }
+
