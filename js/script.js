@@ -4,3 +4,19 @@ $(document).ready(function(){
       $(".designp").toggle();
       $(".designp").show();
     })
+    $(".designp").click(function(){
+        $(".design").toggle();
+        $(".designp").hide();
+        $(".design").show();
+      })
+      $(".development").click(function(){
+        $(".development").hide();
+        $(".developmentp").toggle();
+        $(".developmentp").show();
+      })
+      $(".developmentp").click(function(){
+        $(".development").toggle();
+        $(".developmentp").hide();
+        $(".development").show();
+      })
+   
