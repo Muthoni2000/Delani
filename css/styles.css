@@ -79,10 +79,10 @@ html{
     font-weight: 800;
     font-size: 3.0em;
   }
-  .mouse_click{
+  /* .mouse_click{
     padding-top: 8%;
     animation: 0.3s change infinite;
-  }
+  } */
   @keyframes change {
     0%{
       margin-top: -70px;
