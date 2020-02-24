@@ -8,7 +8,6 @@ html{
     color: white;
   }
   .form-control::placeholder {
-
     color: white;
     opacity: 1;
     font-weight: bold;
@@ -49,4 +48,171 @@ html{
     background-color: #C0BDA5;
     color: white;
   }
-
+  h2{
+    text-align: center;
+  }
+  #output{
+    display:none;
+  }
+  #introduction{
+    background-image: url("../IP3/assets/backgrounds/h_img.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    color: white;
+  }
+  #introduction>h1,.introduction>p,.introduction>img{
+    margin: 1%;
+    padding:1%;
+  }
+  #introduction>img{
+    padding-top: 6%;
+  }
+  .about{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  }
+  h1{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    font-size: 3.0em;
+  }
+  .mouse_click{
+    padding-top: 8%;
+    animation: 0.3s change infinite;
+  }
+  @keyframes change {
+    0%{
+      margin-top: -70px;
+    }
+    50%{
+      margin-bottom: -110px;
+    }
+  }
+  .mouse_click img{
+    box-shadow: 0 0 10px black;
+  }
+  h2{
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+  }
+  p{
+    line-height: 30pt;
+    font-family: 'Gugi', cursive;
+  }
+  .services{
+    background-image: url("../IP3/assets/backgrounds/s_image.jpg");
+    width:100%;
+    height:60vh;
+    background-size: cover;
+    text-align: center;
+    color: white;
+  }
+  .services h2{
+    padding-top: 60px;
+  }
+  .services p{
+    margin:auto, 70px;
+  }
+  .what-to-do{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .what-to-do p{
+    text-align:center;
+  
+  }
+  .divisions{
+    width: 23%;
+    text-align:center;
+    margin:20px;
+    padding-bottom: 20px;
+  }
+  .designp{
+      display: none;
+  }
+  .developmentp{
+    display: none;
+  }
+  .product-managementp{
+    display: none;
+  }
+  #what-to-do{
+    padding: 30px;
+  }
+  .try{
+    width:250px;
+  height:200px;
+  margin: 30px;
+  }
+  .try img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .test{
+    background-color: rgba(247, 248, 249,0.7);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position:relative;
+    margin-top: -80%;
+   opacity: 0;
+  }
+  footer{
+    margin-top: 85%;
+    text-align: center;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .test p{
+    font-size: 1.8em;
+    text-align: center;
+    padding: 5px;
+    padding-top: 40px;
+    font-family: 'Merienda', cursive;
+    line-height: 26pt;
+    font-weight: 700;
+  }
+  @media only screen and (max-width: 1200px) {
+    .try{
+      width:200px;
+    height:150px;
+    margin-bottom: 30px;
+  }
+  }
+  @media only screen and (max-width:991px){
+    .try{
+      width:180px;
+      height:130px;
+      margin-bottom: 30px;
+  }
+  .test p{
+    font-size: 1.4em;
+    line-height: 26pt;
+  }
+  .mouse_click{
+    padding-top: 12%;
+  }
+  }
+  @media only screen and (max-width:765px){
+  .try{
+    width:300px;
+    height:250px;
+    margin-bottom: 30px;
+    margin: auto;
+  }
+  .test p{
+    font-size: 2.2em;
+    padding: 5px;
+    padding-top: 60px;
+    line-height: 26pt;
+  
+  }
+  }
