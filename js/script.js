@@ -44,5 +44,3 @@ $(document).ready(function(){
         $(".product-managementp").hide();
         $(".product-management").show();
       })
-    
-    
