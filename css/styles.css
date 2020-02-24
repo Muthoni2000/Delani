@@ -41,7 +41,6 @@ html{
   }
   #name, #email, #message{
     background-color: transparent;
-    border
     color: white;
   }
   #button-color{
@@ -215,5 +214,9 @@ html{
     line-height: 26pt;
   
   }
+  }
+  .click{
+    display: none;
+    line-height: 2;
   }
   

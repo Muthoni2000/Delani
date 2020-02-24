@@ -1,36 +1,24 @@
-$(document).ready(function(){
-    $(document).ready(function(){
-        $(".design").click(function(){
-          $(".design").hide();
-          $(".designp").toggle();
-          $(".designp").show();
-        })
-        $(".designp").click(function(){
-          $(".design").toggle();
-          $(".designp").hide();
-          $(".design").show();
-        })
-        $(".development").click(function(){
-          $(".development").hide();
-          $(".developmentp").toggle();
-          $(".developmentp").show();
-        })
-        $(".developmentp").click(function(){
-          $(".development").toggle();
-          $(".developmentp").hide();
-          $(".development").show();
-        })
-        $(".product-management").click(function(){
-          $(".product-management").hide();
-          $(".product-managementp").toggle();
-          $(".product-managementp").show();
-        })
-        $(".product-managementp").click(function(){
-          $(".product-management").toggle();
-          $(".product-managementp").hide();
-          $(".product-management").show();
-        })
-      
+ $(document).ready(function(){
+        $("#img1").click(function(){
+          $("#img1").hide();
+          $("#p1").toggle();
+          $("#img1").show();
+        });
+      });
+      $(document).ready(function(){
+        $("#img2").click(function(){
+          $("#img2").hide();
+          $("#p2").toggle();
+          $("#img2").show();
+        });
+      });
+      $(document).ready(function(){
+        $("#img3").click(function(){
+          $("#img3").hide();
+          $("#p3").toggle();
+          $("#img3").show();
+        });
+      }); 
         $('.test').hover(function () {
           $(this).animate({opacity:'1'});
           },
@@ -50,5 +38,3 @@ $(document).ready(function(){
       
            });
       
-      
-      });
