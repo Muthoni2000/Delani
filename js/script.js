@@ -11,7 +11,8 @@
           $("#p2").toggle();
           $("#img2").show();
         });
-      });
+      }); 
+
       $(document).ready(function(){
         $("#img3").click(function(){
           $("#img3").hide();
@@ -37,4 +38,3 @@
           }
       
            });
-      
